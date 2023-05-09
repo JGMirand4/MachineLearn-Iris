@@ -1,31 +1,21 @@
-# Projeto de Classificação da Íris
+# Comparação de Algoritmos de Classificação
 
-Este é um projeto de classificação da íris usando o algoritmo K-Nearest Neighbors (KNN).
+Este repositório contém quatro exemplos de códigos que realizam classificação usando diferentes algoritmos. Cada código possui um propósito e funcionalidades específicas. Abaixo estão os detalhes de cada código:
 
-## Descrição
+## Código 1: Classificação usando K-NN
 
-O objetivo deste projeto é demonstrar como o algoritmo KNN pode ser usado para classificar as flores da íris em diferentes categorias com base em suas características.
+Este código utiliza o algoritmo K-Nearest Neighbors (K-NN) para realizar a classificação de dados da Iris. Ele carrega a base de dados Iris, divide os dados em conjuntos de treinamento e teste, treina o modelo K-NN usando 3 vizinhos próximos, faz previsões para o conjunto de teste e calcula a precisão do modelo. Além disso, ele permite ao usuário inserir as características de uma nova flor para obter a classificação prevista. Para executar o código, siga as instruções exibidas no prompt.
 
-O projeto utiliza a base de dados da íris disponível na biblioteca Scikit-learn. Os dados são divididos em conjuntos de treinamento e teste, e o algoritmo KNN é treinado com o conjunto de treinamento. Em seguida, é feita a previsão das classes das instâncias do conjunto de teste e é calculada a precisão do modelo.
+## Código 2: Classificação usando K-NN com Matriz de Confusão
 
-Além disso, o projeto permite que o usuário forneça as características de uma nova flor da íris e faz a previsão da sua classe com base no modelo treinado.
+Neste código, também é utilizado o algoritmo K-Nearest Neighbors (K-NN) para a classificação de dados da Iris. Além das etapas realizadas no Código 1, ele gera uma matriz de confusão e exibe um gráfico visual da matriz. A matriz de confusão mostra a correspondência entre as classes verdadeiras e as classes previstas pelo modelo. Para visualizar a matriz de confusão, execute o código e observe o gráfico exibido.
 
-## Pré-requisitos
+## Código 3: Comparação de Algoritmos de Classificação
 
-Certifique-se de ter as seguintes bibliotecas instaladas antes de executar o código:
+Neste exemplo, são comparados vários algoritmos de classificação usando a base de dados Iris. Os algoritmos incluídos são: Árvore de Decisão, K-Nearest Neighbors (K-NN), Regressão Logística, Naive Bayes e Máquinas de Vetores de Suporte (SVM). O código carrega a base de dados, divide os dados em conjuntos de treinamento e teste, e treina cada algoritmo com os dados de treinamento. Em seguida, são feitas previsões para o conjunto de teste e é calculada a precisão de cada algoritmo. Por fim, um gráfico de barras é gerado para comparar as precisões dos algoritmos. Execute o código para obter as precisões e visualizar o gráfico.
 
-- scikit-learn
-- numpy
+## Código 4: Comparação de Tempo de Execução dos Algoritmos
 
-## Como executar o código
+Este código realiza a comparação do tempo de execução dos algoritmos de classificação usando a base de dados Iris. Os algoritmos avaliados são: Árvore de Decisão, K-Nearest Neighbors (K-NN), Regressão Logística, Naive Bayes e Máquinas de Vetores de Suporte (SVM). O código mede o tempo necessário para treinar e fazer previsões com cada algoritmo, exibindo o tempo de execução para cada um deles em segundos. Em seguida, um gráfico de barras é gerado para visualizar a comparação dos tempos de execução. Execute o código para obter os tempos de execução e visualizar o gráfico.
 
-1. Clone este repositório para o seu ambiente local.
-2. Certifique-se de ter as bibliotecas necessárias instaladas.
-3. Execute o arquivo `iris_classification.py` em um ambiente Python compatível.
-
-## Resultados
-
-Ao executar o código, você verá a precisão do modelo impressa no console. Em seguida, você será solicitado a fornecer as características de uma nova flor da íris para fazer a previsão da sua classe.
-
-A classe prevista para a nova flor da íris será exibida no console.
-
+Espero que essas descrições ajudem a entender a funcionalidade de cada código. Sinta-se à vontade para explorar os códigos e executá-los.
